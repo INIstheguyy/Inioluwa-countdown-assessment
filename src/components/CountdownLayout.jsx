@@ -108,11 +108,11 @@ export default function CountdownLayout({ countdowns, onEdit, onDelete }) {
             ref={(el) => setRef(el, index)}
             data-section-index={index}
             style={{
-              minHeight: "calc(100vh - 61px)",
+              minHeight: "100vh",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              padding: "60px 0",
+              padding: "140px 0",
             }}
           >
             <ScrollTrackItem
@@ -177,11 +177,11 @@ function MobileLayout({ countdowns, activeIndex, setRef, onEdit, onDelete }) {
             ref={(el) => setRef(el, index)}
             data-section-index={index}
             style={{
-              minHeight: "80vh",
+              minHeight: "90vh",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              padding: "40px 24px",
+              padding: "80px 24px",
             }}
           >
             <MobileScrollItem

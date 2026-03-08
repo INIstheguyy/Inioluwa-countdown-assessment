@@ -23,7 +23,7 @@ export function useIntersectionActive(count) {
       },
       {
         root: null,
-        rootMargin: "-40% 0px -40% 0px", // fires when section enters middle 20% band
+        rootMargin: "-43% 0px -43% 0px", // fires when section enters middle 14% band
         threshold: 0,
       },
     );

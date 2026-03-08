@@ -201,7 +201,7 @@ export default function EmptyState({ onCreateClick }) {
             boxShadow:   '0 4px 20px rgba(37,99,235,0.35)',
           }}
         >
-          + Create your first countdown
+           Create your first countdown
         </button>
       </div>
     </div>

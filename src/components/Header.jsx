@@ -45,7 +45,7 @@ export default function Header({ onNewCountdown }) {
           e.currentTarget.style.boxShadow = '0 4px 16px rgba(37,99,235,0.3)';
         }}
       >
-        + New Countdown
+         New Countdown
       </button>
     </header>
   );
